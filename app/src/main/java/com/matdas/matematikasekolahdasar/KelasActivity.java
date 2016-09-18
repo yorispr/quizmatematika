@@ -194,6 +194,7 @@ public class KelasActivity extends AppCompatActivity {
                     Intent i = new Intent(getApplicationContext(),JenisActivity.class);
                     i.putExtras(b);
                     startActivity(i);
+                    finish();
                 }
             });
         }
